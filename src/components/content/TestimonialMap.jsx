@@ -43,7 +43,7 @@ function TestimonialMap() {
   ];
 
   return (
-    <div id="testimoni" className="container mx-auto py-8">
+    <div id="testimoni" className="container mx-auto py-8 mb-10">
       <div className="flex justify-center items-center">
         <h1 className="px-8 py-2 text-md rounded-full bg-accent border border-tertiary text-center mb-6">
           Testimonial

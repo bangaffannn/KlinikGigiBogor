@@ -1,42 +1,77 @@
 // Footer.js
 
 import React from "react";
-import { FaInstagram, FaFacebook, FaXing, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { Link } from "react-scroll";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaXing,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-primary text-white py-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <div>
-            <h3 className="text-lg font-semibold mb-2">About Us</h3>
-            <p>Best Dental Treatment With Best Service, Only For You!</p>
+            <h3 className="text-lg font-semibold mb-2 text-green-900">
+              About Us
+            </h3>
+            <p className="text-green-800">
+              Best dental treatment with best service, only for you!
+            </p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
-            <p>Email: example@example.com</p>
-            <p>Phone: 123-456-7890</p>
+            <h3 className="text-lg font-semibold mb-2 text-green-900">
+              Contact Us
+            </h3>
+            <p className="text-green-800">Email: example@example.com</p>
+            <p className="text-green-800">Phone: 123-456-7890</p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-2">Links</h3>
+            <h3 className="text-lg font-semibold mb-2 text-green-900">Links</h3>
             <ul>
-              <li>
-                <a href="#">Home</a>
+              <li
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                className="text-green-800 cursor-pointer hover:text-green-600"
+              >
+                <Link to="banner">Home</Link>
               </li>
-              <li>
-                <a href="#">About</a>
+              <li
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                className="text-green-800 cursor-pointer hover:text-green-600"
+              >
+                <Link to="banner">About</Link>
               </li>
-              <li>
-                <a href="#">Services</a>
+              <li
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                className="text-green-800 cursor-pointer hover:text-green-600"
+              >
+                <Link to="layanan">Services</Link>
               </li>
-              <li>
-                <a href="#">Contact</a>
+              <li
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                className="text-green-800 cursor-pointer hover:text-green-600"
+              >
+                <Link to="reservasi">Contact</Link>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-2">Subscribe Us</h3>
-            <ul className="flex space-x-4">
+            <h3 className="text-lg font-semibold mb-2 text-green-900">
+              Subscribe Us
+            </h3>
+            <ul className="flex space-x-4 text-green-800">
               <li>
                 <a
                   href="#"
