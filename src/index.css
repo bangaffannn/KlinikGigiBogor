@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-underline {
+  text-decoration: underline;
+}
+
+@layer base {
+  body {
+    @apply text-black text-lg leading-8;
+  }
+  .h2 {
+    @apply text-black text-[32px] mb-6 tracking-[10%] uppercase;
+  }
+  .h3 {
+    @apply text-black text-[24px] mb-6;
+  }
+ 
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+}
