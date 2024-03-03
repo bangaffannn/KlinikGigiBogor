@@ -27,8 +27,8 @@ function Footer() {
             <h3 className="text-lg font-semibold mb-2 text-green-900">
               Contact Us
             </h3>
-            <p className="text-green-800">Email: example@example.com</p>
-            <p className="text-green-800">Phone: 123-456-7890</p>
+            <p className="text-green-800">Email: contoh@contoh.com</p>
+            <p className="text-green-800">Phone: +62 819 5895 4949</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-2 text-green-900">Links</h3>
@@ -37,7 +37,7 @@ function Footer() {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                className="text-green-800 cursor-pointer hover:text-green-600"
+                className="text-green-800 cursor-pointer hover:text-green-600 transition duration-300 ease-in-out"
               >
                 <Link to="banner">Home</Link>
               </li>
@@ -45,7 +45,7 @@ function Footer() {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                className="text-green-800 cursor-pointer hover:text-green-600"
+                className="text-green-800 cursor-pointer hover:text-green-600 transition duration-300 ease-in-out"
               >
                 <Link to="banner">About</Link>
               </li>
@@ -53,7 +53,7 @@ function Footer() {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                className="text-green-800 cursor-pointer hover:text-green-600"
+                className="text-green-800 cursor-pointer hover:text-green-600 transition duration-300 ease-in-out"
               >
                 <Link to="layanan">Services</Link>
               </li>
@@ -61,7 +61,7 @@ function Footer() {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                className="text-green-800 cursor-pointer hover:text-green-600"
+                className="text-green-800 cursor-pointer hover:text-green-600 transition duration-300 ease-in-out"
               >
                 <Link to="reservasi">Contact</Link>
               </li>
