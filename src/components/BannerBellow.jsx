@@ -28,7 +28,7 @@ function PromotionCard({ imageUrl, headline }) {
         <h2 className="text-2xl md:text-3xl font-bold text-green-900 mb-4">
           {headline}
         </h2>
-        <p className="text-base text-gray-600 leading-relaxed">
+        <p className="text-base text-green-800 text-justify leading-relaxed">
           "Jaga senyum ceriamu dengan rutin memeriksa gigi! Mari rawat kesehatan
           mulut dan gigi bersama-sama untuk senyum yang indah dan berkilau
           setiap hari."

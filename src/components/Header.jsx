@@ -50,7 +50,9 @@ const Header = () => {
         </button>
         <div
           className={`${
-            isMenuOpen ? "block transition-all duration-300 ease-in-out" : "hidden transition-all duration-300 ease-in-out"
+            isMenuOpen
+              ? "block transition-all duration-300 ease-in-out"
+              : "hidden transition-all duration-300 ease-in-out"
           } md:block md:flex md:items-center space-x-4`}
         >
           <ul className="flex flex-col md:flex-row gap-x-6">
@@ -100,7 +102,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <ul className="flex gap-x-4">
+        {/* <ul className="flex gap-x-4">
           <li>
             <a
               href="#"
@@ -133,7 +135,7 @@ const Header = () => {
               <FaLinkedin />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </header>
   );
