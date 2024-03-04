@@ -47,7 +47,7 @@ export default function Layanan() {
       <div className="flex flex-col md:flex-row justify-center items-center gap-8">
         <img src={Img1} alt="image" className="w-full md:w-auto" />
         <div className="text-center md:text-left">
-          <h1 className="font-bold px-8 py-2 text-md rounded-full bg-accent border border-tertiary">
+          <h1 className="text-center font-bold px-8 py-2 text-md rounded-full bg-accent border border-tertiary">
             Layanan kami
           </h1>
           <p className="mt-4">
