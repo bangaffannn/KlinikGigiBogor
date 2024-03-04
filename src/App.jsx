@@ -7,6 +7,7 @@ import Layanan from "./components/Layanan";
 import TestimonialMap from "../src/components/content/TestimonialMap";
 import Footer from "./components/Footer";
 import WhatsappButton from "./components/content/WhatsappButton";
+import FAQ from "./components/FAQ";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Layanan></Layanan>
       <BannerBellow></BannerBellow>
       <TestimonialMap />
+      <FAQ></FAQ>
       <WhatsappButton></WhatsappButton>
       <Footer></Footer>
     </div>
