@@ -47,9 +47,9 @@ export default function Layanan() {
       <div className="flex flex-col md:flex-row justify-center items-center gap-8">
         <img src={Img1} alt="image" className="w-full md:w-auto" />
         <div className="text-center md:text-left">
-          <button className="px-8 py-2 text-md rounded-full bg-accent border border-tertiary">
+          <h1 className="font-bold px-8 py-2 text-md rounded-full bg-accent border border-tertiary">
             Layanan kami
-          </button>
+          </h1>
           <p className="mt-4">
             Kami siap membantu masalah kesehatan gigi Anda. Pilih perawatanmu
             sekarang!
@@ -58,9 +58,9 @@ export default function Layanan() {
         </div>
       </div>
       <div className="mt-8 flex flex-col justify-center items-center">
-        <button className="px-8 py-2 text-md rounded-full bg-accent border border-tertiary">
+        <h1 className="w-full text-center font-bold px-8 py-2 text-md rounded-full bg-accent border border-tertiary">
           Jam Operasional
-        </button>
+        </h1>
         <div>
           <OperatingHoursCard operatingHours={operatingHours} />
         </div>

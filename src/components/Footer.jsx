@@ -47,7 +47,7 @@ function Footer() {
                 spy={true}
                 className="text-green-800 cursor-pointer hover:text-green-600 transition duration-300 ease-in-out"
               >
-                <Link to="banner">About</Link>
+                <Link to="banner">Tentang kami</Link>
               </li>
               <li
                 activeClass="active"
@@ -55,7 +55,7 @@ function Footer() {
                 spy={true}
                 className="text-green-800 cursor-pointer hover:text-green-600 transition duration-300 ease-in-out"
               >
-                <Link to="layanan">Services</Link>
+                <Link to="layanan">Layanan</Link>
               </li>
               <li
                 activeClass="active"
@@ -63,7 +63,7 @@ function Footer() {
                 spy={true}
                 className="text-green-800 cursor-pointer hover:text-green-600 transition duration-300 ease-in-out"
               >
-                <Link to="reservasi">Contact</Link>
+                <Link to="faq">FAQ</Link>
               </li>
             </ul>
           </div>

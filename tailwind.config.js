@@ -20,7 +20,7 @@ export default {
         serif: ["Suranna"],
       },
       backgroundImage: {
-        site: "url('./assets/10.jpg')",
+        site: "url('./assets/bg3.jpg')",
       },
       plugins: [],
     },

@@ -100,6 +100,17 @@ const Header = () => {
                 Testimoni
               </Link>
             </li>
+            <li>
+              <Link
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                className="font-sans text-md cursor-pointer hover:text-secondary transition-all duration-300 ease-in-out"
+                to="faq"
+              >
+                FAQ
+              </Link>
+            </li>
           </ul>
         </div>
         {/* <ul className="flex gap-x-4">

@@ -45,7 +45,7 @@ function TestimonialMap() {
   return (
     <div id="testimoni" className="container mx-auto py-8 mb-10">
       <div className="flex justify-center items-center">
-        <h1 className="px-8 py-2 text-md rounded-full bg-accent border border-tertiary text-center mb-6">
+        <h1 className="w-full text-center font-bold px-8 py-2 text-md rounded-full bg-accent border border-tertiary text-center mb-6">
           Testimonial
         </h1>
       </div>
