@@ -15,7 +15,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex justify-center items-center gap-x-3">
           <img className="w-8 h-auto" src={logo} alt="" />
-          <button className="text-xl font-serif">drg. Irma Wiyanti</button>
+          <button className="text-xl font-serif hidden md:block">drg. Irma Wiyanti</button>
         </div>
         <button className="md:hidden" onClick={toggleMenu}>
           {isMenuOpen ? (
