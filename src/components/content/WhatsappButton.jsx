@@ -1,5 +1,5 @@
 import React from "react";
-import WhatsAppLogo from '../../assets/whatsapp-logo.png' // Ubah path sesuai dengan lokasi gambar
+import WhatsAppLogo from '../../assets/pngwing.com.png' // Ubah path sesuai dengan lokasi gambar
 
 function WhatsappButton() {
   return (
