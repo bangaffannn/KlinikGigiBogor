@@ -10,14 +10,20 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleMenuClick = () => {
+    setIsMenuOpen(false);
+  }
+
   return (
     <header className="bg-transparent text-black p-8">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex justify-center items-center gap-x-3">
           <img className="w-8 h-auto" src={logo} alt="" />
-          <button className="text-xl font-serif hidden md:block">drg. Irma Wiyanti</button>
+          <button className="text-xl font-serif hidden md:block">
+            drg. Irma Wiyanti
+          </button>
         </div>
-        <button className="md:hidden" onClick={toggleMenu}>
+        <button className="md:hidden z-10" onClick={toggleMenu}>
           {isMenuOpen ? (
             <svg
               className="h-6 w-6 text-black hover:text-primary transition duration-300 ease-in-out"
@@ -51,9 +57,9 @@ const Header = () => {
         <div
           className={`${
             isMenuOpen
-              ? "block transition-all duration-300 ease-in-out"
-              : "hidden transition-all duration-300 ease-in-out"
-          } md:block md:flex md:items-center space-x-4`}
+              ? "fixed md:hidden p-8 top-0 left-0 right-0 bg-primary bg-opacity-80 transition-opacity duration-500 ease-in-out"
+              : "hidden md:block md:flex md:items-center space-x-4"
+          }`}
         >
           <ul className="flex flex-col md:flex-row gap-x-6">
             <li>
@@ -61,6 +67,7 @@ const Header = () => {
                 activeClass="active"
                 smooth={true}
                 spy={true}
+                onClick={handleMenuClick}
                 className="font-sans text-md cursor-pointer hover:text-secondary transition-all duration-300 ease-in-out"
                 to="banner"
               >
@@ -72,6 +79,7 @@ const Header = () => {
                 activeClass="active"
                 smooth={true}
                 spy={true}
+                onClick={handleMenuClick}
                 className="font-sans text-md cursor-pointer hover:text-secondary transition-all duration-300 ease-in-out"
                 to="layanan"
               >
@@ -83,6 +91,7 @@ const Header = () => {
                 activeClass="active"
                 smooth={true}
                 spy={true}
+                onClick={handleMenuClick}
                 className="font-sans text-md cursor-pointer hover:text-secondary transition-all duration-300 ease-in-out"
                 to="reservasi"
               >
@@ -94,6 +103,7 @@ const Header = () => {
                 activeClass="active"
                 smooth={true}
                 spy={true}
+                onClick={handleMenuClick}
                 className="font-sans text-md cursor-pointer hover:text-secondary transition-all duration-300 ease-in-out"
                 to="testimoni"
               >
@@ -103,8 +113,9 @@ const Header = () => {
             <li>
               <Link
                 activeClass="active"
-                smooth={true}
+                smooth={true}4
                 spy={true}
+                onClick={handleMenuClick}
                 className="font-sans text-md cursor-pointer hover:text-secondary transition-all duration-300 ease-in-out"
                 to="faq"
               >
