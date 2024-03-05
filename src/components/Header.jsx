@@ -113,7 +113,7 @@ const Header = () => {
             <li>
               <Link
                 activeClass="active"
-                smooth={true}4
+                smooth={true}
                 spy={true}
                 onClick={handleMenuClick}
                 className="font-sans text-md cursor-pointer hover:text-secondary transition-all duration-300 ease-in-out"
