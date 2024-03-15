@@ -18,10 +18,10 @@ const Header = () => {
     <header className="bg-transparent text-black p-8">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex justify-center items-center gap-x-3">
-          <img className="w-8 h-auto" src={logo} alt="" />
-          <button className="text-xl font-serif hidden md:block">
+          <Link to="banner"><img className="w-8 h-auto cursor-pointer" src={logo} alt="" /></Link>
+          <Link to="banner"><button className="cursor-pointer text-xl font-serif hidden md:block">
             drg. Irma Wiyanti
-          </button>
+          </button></Link>
         </div>
         <button className="md:hidden z-10" onClick={toggleMenu}>
           {isMenuOpen ? (
