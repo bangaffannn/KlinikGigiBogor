@@ -10,10 +10,10 @@ function TestimonialMap() {
         "Dokternya ramah, penjelasanya mudah dimengerti, enak buat konsultasi. Dental assistantnya juga baik banget, nenangin saya yang ketakutan cabut gigi. Harga perawatan dan tindakan tergolong murah, sangat recomended.",
     },
     {
-      name: "Nurman Sulaeman",
+      name: "Bryan Christianus Handoyo",
       position: "Pasien",
       comment:
-        "Pelayanannya bagus, konsultasi dengan dokternya jelas dan tegas.",
+        "Dokter Gigi Irma Wiyanti memang dokter gigi terbaik di Bogor, saya dirawat dengan nyaman dan profesional oleh dokter disana ketika saya melakukan perawatan saraf gigi. semoga semakin sukses kedepannya ya.",
     },
     // Add more testimonials as needed
     {
@@ -29,16 +29,16 @@ function TestimonialMap() {
         "Pertama kali berobat gigi disini karena gigi bolong yg sudah parah, enak sih berobat disini, ga terlalu antri, pelayanannya juga cepat. Untuk pengobatan pertama/tambal sementara kena biaya 150rb",
     },
     {
-      name: "Papa Rock n Roll",
+      name: "Weth Gura",
       position: "Pasien",
       comment:
-        "Penanganan nya nyaman.. Harga terjangkau,sya paati rekimendasikan keluarga sya untuk ke sini apa bila afa masalah dengan gigi..",
+        "Wah perawatan gigi berlubang yang saya dapatkan di Dokter Gigi Irma Wiyanti itu bagus banget lho, pelayanannya bagus dan saya nyaman ketika dalam perawatan. emang dokter gigi Irma the best deh!",
     },
     {
-      name: "Paul Andra",
+      name: "Keni Astuti",
       position: "Pasien",
       comment:
-        "pelayan sangat mumuaskan  semoga tambah  rame  tambah rezekinya  yv penting  jgn sampai  tambah pasien  yg  yg bisa mumuaskan",
+        "Recommended berobat disini. Pelayanannya cepat, dokternya ramah dan komunikatif.",
     },
   ];
 

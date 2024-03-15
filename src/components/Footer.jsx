@@ -14,24 +14,29 @@ function Footer() {
   return (
     <footer className="bg-primary text-white py-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-2 text-green-900">
-              About Us
+              Tentang Kami
             </h3>
             <p className="text-green-800">
-              Best dental treatment with best service, only for you!
+              Perawatan gigi terbaik dengan pelayanan terbaik hanya untuk kamu!
             </p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-2 text-green-900">
-              Contact Us
+              Hubungi Kami
             </h3>
-            <p className="text-green-800">Email: contoh@contoh.com</p>
-            <p className="text-green-800">Phone: +62 819 5895 4949</p>
+            <p className="text-green-800">Kontak: +62 819 5895 4949</p>
+            <p className="text-green-800 text-justify">
+              Alamat: Jl. Raya Semplak No.220, RT.02/RW.10, Semplak, Kec. Bogor
+              Barat, Kota Bogor, Jawa Barat 16114
+            </p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-2 text-green-900">Links</h3>
+            <h3 className="text-lg font-semibold mb-2 text-green-900">
+              Tautan
+            </h3>
             <ul>
               <li
                 activeClass="active"
@@ -69,7 +74,7 @@ function Footer() {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-2 text-green-900">
-              Subscribe Us
+              Media Sosial
             </h3>
             <ul className="flex space-x-4 text-green-800">
               <li>
@@ -106,7 +111,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://wa.me/628958954949"
                   className="hover:text-secondary transition-all duration-300 ease-in-out"
                 >
                   <FaWhatsapp />

@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "./content/Card.jsx";
-import ImageSlider from "./content/ImageSlider";
 import Img1 from "../assets/dentist-4.png";
 
 import { MdOutlineHealthAndSafety } from "react-icons/md";
@@ -12,17 +11,20 @@ const data = [
   {
     icon: <GiAchievement />,
     title: "Pelayanan",
-    description: "Kami memiliki komitmen untuk selalu menyediakan pelayanan terbaik.",
+    description:
+      "Kami memiliki komitmen untuk selalu menyediakan pelayanan terbaik.",
   },
   {
     icon: <FaSquarePhone />,
     title: "Konsultasi",
-    description: "Kami selalu terbuka untuk menjadi solusi dalam setiap permasalahan gigi anda.",
+    description:
+      "Kami selalu terbuka untuk menjadi solusi dalam setiap permasalahan gigi anda.",
   },
   {
     icon: <FaRegSmile />,
     title: "Kepuasan Konsumen",
-    description: "Kami selalu memastikan kepuasan konsumen karena hal tersebut menjadi ukuran keberhasilan pelayanan kami",
+    description:
+      "Kami selalu memastikan kepuasan konsumen karena hal tersebut menjadi ukuran keberhasilan pelayanan kami",
   },
   // Add more data objects as needed
 ];
@@ -50,14 +52,19 @@ export default function Banner() {
           <div className="flex flex-col md:ml-6">
             {/* HEADLINE */}
             <h1 className="font-bold font-sans text-3xl md:text-5xl text-center md:text-left leading-[1.2]">
-              <span className="inline-block mr-2">Best Dental Treatment</span>
-              <span className="inline-block mr-2">With Best Service</span>
-              <span className="inline-block">Only For You!</span>
+              <span className="inline-block mr-2">Perawatan Gigi Terbaik</span>
+              <span className="inline-block mr-2">
+                Dengan Pelayanan Terbaik
+              </span>
+              <span className="inline-block">Hanya Untuk Kamu!</span>
             </h1>
             {/* BUTTON */}
-            <button className="mt-8 border border-tertiary text-tertiary hover:bg-primary hover:border-primary hover:text-white px-4 py-2 rounded-full transition-all duration-300 ease-in-out">
+            <a
+              href="https://drgirmawiyanti.digman.co.id/register"
+              className="mt-8 border text-center border-tertiary text-tertiary hover:bg-primary hover:border-primary hover:text-white px-4 py-2 rounded-full transition-all duration-300 ease-in-out"
+            >
               Registrasi sekarang
-            </button>
+            </a>
           </div>
           <div className="relative flex justify-center items-center">
             <div className="absolute right-12 md:right-auto md:left-0 w-[200px] h-[200px] md:w-[320px] md:h-[320px] rounded-full bg-accent"></div>
@@ -76,7 +83,7 @@ export default function Banner() {
           <span className="text-2xl md:text-3xl font-bold text-secondary">
             gigi dan mulut
           </span>{" "}
-          adalah kunci untuk{" "}
+          adalah salah satu kunci untuk{" "}
           <span className="text-2xl md:text-3xl font-bold text-secondary">
             hidup yang sehat dan bahagia.{" "}
           </span>

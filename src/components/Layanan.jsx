@@ -5,12 +5,14 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 import Img1 from "../assets/dentist-3.png";
 
 const data = [
-  { description: "Scaling" },
+  { description: "Scaling (Pembersihan karang gigi)" },
+  { description: "Perawatan Orthodonsia (Kawat gigi)" },
   { description: "Tambal gigi" },
+  { description: "Crown (Mahkota jaket)" },
   { description: "Perawatan syaraf gigi" },
   { description: "Behel gigi" },
   { description: "Veneer gigi" },
-  { description: "Bleaching gigi" },
+  { description: "Bleaching gigi (Memutihkan gigi)" },
   { description: "Implan" },
   { description: "Perawatan gigi anak" },
   { description: "Gigi tiruan" },
@@ -69,8 +71,11 @@ export default function Layanan() {
         id="reservasi"
         className="flex justify-center items-center mt-10 gap-x-2"
       >
-        <a className="text-underline text-tertiary cursor-pointer">
-          Reservasi sekarang
+        <a
+          href="https://drgirmawiyanti.digman.co.id/register"
+          className="text-underline text-tertiary cursor-pointer"
+        >
+          Registrasi sekarang
         </a>
         <IoIosArrowDroprightCircle className="text-tertiary" />
       </div>

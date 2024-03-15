@@ -1,5 +1,6 @@
 import React from "react";
 import Img1 from "../assets/dentist-5.png";
+import GoogleReview from '../assets/GoogleReview.png'
 
 export default function BannerBelow() {
   return (
@@ -33,6 +34,7 @@ function PromotionCard({ imageUrl, headline }) {
           mulut dan gigi bersama-sama untuk senyum yang indah dan berkilau
           setiap hari."
         </p>
+        <a href="https://g.co/kgs/Myaym6B"><img className="w-36 h-auto shadow-lg mt-4 hover:scale-110 transition duration-300 ease-in-out" src={GoogleReview} alt="five star google review" /></a>
       </div>
     </div>
   );
