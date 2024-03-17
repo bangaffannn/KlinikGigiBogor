@@ -111,7 +111,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://wa.me/628958954949"
+                  href="https://wa.me/6281958954949"
                   className="hover:text-secondary transition-all duration-300 ease-in-out"
                 >
                   <FaWhatsapp />
