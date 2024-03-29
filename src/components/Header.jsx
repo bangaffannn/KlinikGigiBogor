@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../assets/logonew.png";
 import { FaInstagram, FaFacebook, FaXing, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-scroll";
@@ -13,6 +13,19 @@ const Header = () => {
   const handleMenuClick = () => {
     setIsMenuOpen(false);
   }
+
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      setIsMenuOpen(prevScrollPos > currentScrollPos || currentScrollPos <= 10);
+      setPrevScrollPos(currentScrollPos);
+      setIsMenuOpen(false)
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [])
 
   return (
     <header className="bg-transparent text-black p-8">
